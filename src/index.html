@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Unreal Bank</title>
+</head>
+
+<body>
+    <div class="min-h-screen bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+        <header
+            class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%  p-3 shadow-lg">
+            <h1 class="text-center text-3xl mt-2">
+                Welcome to the <span class="font-bold text-red-600">Un-Real</span> Bank
+            </h1>
+        </header>
+
+        <main>
+            <div class="grid place-items-center mt-10">
+                <section class="bg-emerald-400 mt-4 text-center rounded p-2 shadow-2xl">
+                    <h2 class="text-2xl text-center p-1 text-gray-700">
+                        Please Login to Continue
+                    </h2>
+                    <div class="inline-block mt-3">
+                        <input id="loginEmail" class="block text-center" type="email" name="email"
+                            placeholder="Enter Your Email">
+                        <input id="loginPass" class="block mt-3 text-center mb-1" type="password" name="password"
+                            placeholder="Enter Your Password">
+                        <button id="btnSubmit"
+                            class="rounded shadow-lg bg-blue-400 p-1 m-2 hover:bg-blue-500 hover:text-white">Login</button>
+                    </div>
+                </section>
+
+            </div>
+    </div>
+    </main>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
